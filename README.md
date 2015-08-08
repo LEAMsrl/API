@@ -1,3 +1,5 @@
+![LEAM](http://www.leam.com/templates/shop/images/logo.jpg "Leam.com")
+
 # Collection of example API requests
 
 Collections of example to make request 
