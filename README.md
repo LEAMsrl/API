@@ -15,3 +15,11 @@ Every account will receive this information privately.
 
 Personal information like TOKEN and so on are not show here
 you need to change it by your self. 
+
+---
+
+Author: 
+Gabriele Marazzi 
+gabriele.marazzi@gmail.com
+[3ml.it](http://www.3ml.it/)
+
