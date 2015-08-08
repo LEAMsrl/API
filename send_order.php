@@ -1,11 +1,25 @@
 <?php
-
 /* 
  * LEAM srl
  * API v2 - Example code
+ * 
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * Author: Gabriele Marazzi - gabriele.marazzi@gmail.com
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * 
+ * Send an order
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * use this method to send a purchising order to leam store
+ * Is required to send the information about
+ * items list in JSON format, an array named "item"
+ * with a list of row. Each row must have the 
+ * a "stock_id" field with the format: "stockid-sizename" 
+ * and a "qty" field with the quantity.
+ * 
  */
 
-$URI_base = "http://localhost/leam/frontaccounting/modules/api/v2/";
+
+$URI_base = "http://127.0.0.1/modules/api/v2/";
 $RESOURCE = "order/";
 $TOKEN = "x7e745fa910";
 
