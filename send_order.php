@@ -28,7 +28,7 @@ $url = $URI_base . $RESOURCE . "?t=" . $TOKEN;
 
 $data = array(
     'comments'=>'Comments for the order',
-    'item'=>array(
+    'items'=>array(
             array('stock_id'=>'W01590158-36','qty'=>'1'),
             array('stock_id'=>'W01590158-38','qty'=>'1'),
             array('stock_id'=>'W01590158-40','qty'=>'1')
