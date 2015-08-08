@@ -18,8 +18,8 @@ you need to change it by your self.
 
 ---
 
-Author: 
-Gabriele Marazzi 
-gabriele.marazzi@gmail.com
-[3ml.it](http://www.3ml.it/)
+### Author: 
+* Gabriele Marazzi 
+* email: gabriele.marazzi@gmail.com
+* web: [3ml.it](http://www.3ml.it/)
 
