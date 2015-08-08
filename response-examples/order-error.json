@@ -1,0 +1,21 @@
+{
+    "errors": [
+        "Error: stock W01590158, size 36 has not available quantity. Required qty: 1 available qty: 0",
+        "Error: stock W01590158, size 38 has not available quantity. Required qty: 2 available qty: 0",
+        "Error: stock W01590158, size 40 has not available quantity. Required qty: 1 available qty: 0"
+    ],
+    "refusedItems": [
+        {
+            "stock_id": "W01590158-36",
+            "qty_available": "0"
+        },
+        {
+            "stock_id": "W01590158-38",
+            "qty_available": "0"
+        },
+        {
+            "stock_id": "W01590158-40",
+            "qty_available": "0"
+        }
+    ]
+}
