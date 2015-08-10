@@ -7,7 +7,7 @@
  * Author: Gabriele Marazzi - gabriele.marazzi@gmail.com
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  * 
- * Get TOken
+ * Get Token
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  * use this method recover your access token
  * the token is used from other API method
@@ -21,10 +21,10 @@ $RESOURCE = "getToken/";
 
 $url = $URI_base . $RESOURCE ;
 
-$user="xxx"; 
-$password="xxx"; 
+$user = "xxx"; 
+$password = "xxx"; 
 
-$data=array('user'=>$user,'password'=>$password);
+$data = array('user'=>$user,'password'=>$password);
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_POST, 1);
